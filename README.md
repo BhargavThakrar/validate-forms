@@ -1,3 +1,5 @@
+[![Build Status][travis-image]][travis-url]
+
 ### Import:
 ```javascript
 import validation from 'validate-forms';
@@ -125,3 +127,6 @@ validation.validator(post,field_list,errReturnType);
     "data" : []
 };
 ```
+
+[travis-url]: https://travis-ci.org/BhargavThakrar/validate-forms
+[travis-image]: https://travis-ci.org/BhargavThakrar/validate-forms.svg?branch=master
