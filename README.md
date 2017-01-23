@@ -1,4 +1,4 @@
-[![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]]
+[![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url]
 
 ### Import:
 ```javascript
