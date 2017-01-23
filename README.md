@@ -1,4 +1,4 @@
-[![Build Status][travis-image]][travis-url]
+[![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]]
 
 ### Import:
 ```javascript
@@ -130,3 +130,6 @@ validation.validator(post,field_list,errReturnType);
 
 [travis-url]: https://travis-ci.org/BhargavThakrar/validate-forms
 [travis-image]: https://travis-ci.org/BhargavThakrar/validate-forms.svg?branch=master
+
+[coveralls-url]: https://coveralls.io/github/BhargavThakrar/validate-forms
+[coveralls-image]: https://coveralls.io/repos/github/BhargavThakrar/validate-forms/badge.svg?branch=master
