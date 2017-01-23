@@ -1,5 +1,5 @@
-import chai from 'chai';
-import engine from '../src/engine';
+var chai = require('chai');
+var engine = require('../build/engine');
 
 let expect = chai.expect;
 

@@ -1,5 +1,5 @@
-import chai from 'chai';
-import validation from '../src/Validation';
+var chai = require('chai');
+var validation = require('../build/Validation');
 
 let expect = chai.expect;
 
