@@ -1,4 +1,4 @@
-[![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url]
+[![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Known Vulnerabilities][vulnerability-image]][vulnerability-url]
 
 ### Import:
 ```javascript
@@ -133,3 +133,6 @@ validation.validator(post,field_list,errReturnType);
 
 [coveralls-url]: https://coveralls.io/github/BhargavThakrar/validate-forms
 [coveralls-image]: https://coveralls.io/repos/github/BhargavThakrar/validate-forms/badge.svg?branch=master
+
+[vulnerability-image]: https://snyk.io/test/github/bhargavthakrar/validate-forms/badge.svg
+[vulnerability-url]: https://snyk.io/test/github/bhargavthakrar/validate-forms
