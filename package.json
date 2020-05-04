@@ -7,7 +7,9 @@
     "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "code-linting": "node_modules/jshint/bin/jshint --config jshint-config.json src/*.js",
     "clean": "rm -rf build",
-    "build": "npm run clean && cp -rf ./src ./build && ./node_modules/babel-cli/bin/babel.js build/ -d build/"
+    "build": "npm run clean && cp -rf ./src ./build && ./node_modules/babel-cli/bin/babel.js build/ -d build/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,8 @@
   "author": "Bhargav Thakrar",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.3.0"
+    "lodash": "^4.3.0",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "babel-cli": "^6.5.1",
@@ -39,5 +42,6 @@
     "istanbul": "^0.4.5",
     "jshint": "^2.9.4",
     "mocha": "^3.2.0"
-  }
+  },
+  "snyk": true
 }
